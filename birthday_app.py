@@ -43,9 +43,9 @@ if password_input:
             ">
                 <h2>🎉 Selamat Ulang Tahun! 🎂</h2>
                 <p style="font-size: 18px;">
-                    Hai <b>Nabilla Salsabila Noor</b>,<br><br>
-                    Di usia yang ke-<b>22 tahun</b> ini, semoga kamu selalu sehat, bahagia, dan sukses dalam setiap langkahmu!<br><br>
-                    Pacarmu,<br>
+                    HBD <b>Nabilla Salsabila Noor</b>,<br><br>
+                    Di usia yang ke-<b>22 tahun</b> ini, semoga kamu selalu sehat, bahagia, dan dilancarkan segala urusannya<br><br>
+                Love you too xixi<br>
                     <b>Risky</b>
                 </p>
             </div>
