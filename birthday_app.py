@@ -52,6 +52,15 @@ if password_input:
             """,
             unsafe_allow_html=True
         )
+        # Tampilkan video dari file lokal (pastikan file video.mp4 ada di repo yang sama)
+        st.markdown("### 🎬 Video spesial untuk kamu:")
+        try:
+            video_file = open("lv_0_20250710011528.mp4", "rb")
+            video_bytes = video_file.read()
+            st.video(video_bytes)
+        except FileNotFoundError:
+            st.warning("📁 File video.mp4 tidak ditemukan. Silakan pastikan file-nya ada di folder yang sama.")
+
     else:
         st.session_state.attempts += 1
         hint = " ".join(real_password[:st.session_state.attempts])
