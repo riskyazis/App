@@ -56,7 +56,7 @@ if password_input:
         # Tampilkan video dari file lokal (pastikan file video.mp4 ada di repo yang sama)
         st.markdown("### 🎬 Video spesial untuk kamu:")
         try:
-            video_file = open("video.mp4", "rb")
+            video_file = open("lv_0_20250710011528.mp4", "rb")
             video_bytes = video_file.read()
             st.video(video_bytes)
         except FileNotFoundError:
